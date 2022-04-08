@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "theoretical-morphology-examples"
+version = "0.1.0"
+description = ""
+authors = ["Noshita, Koji <noshita@morphometrics.jp>"]
+license = "CC-BY-SA-4.0"
+
+[tool.poetry.dependencies]
+python = "~3.10.0"
+numpy = "^1.22.3"
+scipy = "^1.8.0"
+jupyter = "^1.0.0"
+jupyterlab = "^3.3.3"
+matplotlib = "^3.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
